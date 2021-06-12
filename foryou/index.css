@@ -1,0 +1,47 @@
+body {
+    min-height: 100%;
+    max-width: 100%;
+    background-color: papayawhip; 
+    margin: 0 auto;
+}
+
+button {
+	margin:3px;
+	height:60px auto;
+	padding:10px 15px;
+	color:#2980b9;
+	background-color:#f4f4f4;
+	border:3px solid #f4f4f4;
+	float:none;
+	display:inline-block;
+	text-decoration:none;
+	overflow:hidden;
+	text-align:center;
+	line-height:1.6;
+	font-size:16px;
+	transition:all 0.3s ease;
+	font-family:'Kanit',sans-serif;
+	position:relative
+}
+
+button:hover {
+	box-shadow:3px 3px 10px #999999;
+	transition:all 0.3s ease
+}
+@media only screen and(max-width:720px) {
+	button:width:95%
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgba(0,0,0,0);
+  color: #2980b9;
+  text-align: center;
+}
+
+.bi {
+	color: red
+}
