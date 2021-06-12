@@ -1,66 +1,43 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Risna's Profile Card</title>
-    <link rel="stylesheet" href="style.css">
-    <script src="https://kit.fontawesome.com/f6816dd194.js" crossorigin="anonymous"></script>
-</head>
-<body>
-    <div class="main center">
-        <div class="box center">
-            <img src="https://drive.google.com/uc?export=view&id=11pSWNLr7s3VhhKwssKJ0MfxUaRVSWYdW" alt="">
-            <div><h1 class="user_name">---</h1></div>
-            <div>
-                <p class="user_name">Risna Fadillah</p>
-                <p class="skill">Jobseeker</p>
-            </div>
-            <div class="arr_container center ">
-                <i class="fas fa-arrow-right"></i>
-            </div>
-            <div class="left_container off">
-                <p>Skills</p>
-                <div class="skills">
-                    <div>Ms. Office</div>
-                    <div>Ms. Excel</div>
-                    <div>Photoshop</div>
-                    <div>Html</div>
-                    <div>Css</div>
-                    <div>Python</div>
-                </div>
-                <div class="icons">
-                    <a href="https://github.com/risspect"><i class="fab fa-github"></i></a>
-                    <a href="https://twitter.com/aduhriss"><i class="fab fa-twitter"></i></a>
-                    <a href="https://facebook.com/voinatic"><i class="fab fa-facebook"></i></a>
-                    <a href="https://instagram.com/eh.riss_"><i class="fab fa-instagram"></i></a>
-                </div>
-                <div class="cancel center">
-                    <i class="fas fa-times"></i>
-                </div>
-            </div>
-        </div>
-    </div>
+<html>
+	<head>
+		<title>Hai sayang</title>
+		<script src="script.js"></script>
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+    	integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+	  <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/sweetalert2@10.8.1/dist/sweetalert2.min.css'>
+  	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  	<link rel="preconnect" href="https://fonts.gstatic.com">
+  	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+		<style>
+   .hem {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+   }
+		</style>
+		<link rel="stylesheet" href="index.css">
+	</head>
+	<body>
+			<button id="risna" class="hem">Coba Klik deh</button>
+			<div class="footer">
+				<p>
+					Made with <i class='fas fa-heart text-danger animate__animated animate__bounce animate__repeat-3'></i> by RisnaF.
+				</p>
+			</div>
+			
+			<!-- Optional JavaScript; choose one of the two! -->
+  		<script src="script.js"></script>
+  		<script src="https://kit.fontawesome.com/61e5120832.js" crossorigin="anonymous"></script>
 
-    <script>
-        const clc = document.querySelector(".cancel");
-        const arr = document.querySelector(".arr_container");
-        const left_container = document.querySelector(".left_container");
-
-        arr.addEventListener("click", ()=>{
-            arr.classList.add("active_arr");
-            if(left_container.classList.contains("off")){
-                left_container.classList.remove("off");
-                left_container.classList.add("active");
-            }
-        });
-        clc.addEventListener("click", ()=>{
-            arr.classList.remove("active_arr");
-            if(left_container.classList.contains("active")){
-                left_container.classList.remove("active");
-                left_container.classList.add("off");
-            }
-        });
-    </script>
-</body>
+		  <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+  		<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    		integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+			</script>
+  		<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+    		integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous">
+  		</script>
+    	<script src="https://cdn.jsdelivr.net/npm/sweetalert2@10.8.1/dist/sweetalert2.all.min.js"></script>
+	</body>
 </html>
