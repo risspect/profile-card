@@ -1,0 +1,113 @@
+<!--
+
+INI 100% HASIL KODING GUA (RISNA FADILLAH)
+MAU PAKE? IZIN DULU KE AKUN INSTAGTAM @EH.RISS_ OKE?
+
+JADILAH PENGGUNA YANG BUDIMAN.
+
+JANGAN DI PAKE BUAT DEFACE WEB ORANG YAK!
+KALO MAU PAKE DEFACE, GUA BIKININ ASAL DM AJA DI INSTAGRAM GUA.
+
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <title>Maaf Ya:)</title>
+      <meta name="viewport" content="width=device-width, initial-scale=0.5">
+			<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+			
+      <!-- Ini Buat Styling -->
+      <style>
+      	@import url('https://fonts.googleapis.com/css2?family=Benne&display=swap');
+      	
+      	body {
+      		background-color: #121212;
+      		font-family: 'Benne', serif;
+      		font-size: 16px;
+      		color: white;
+      	}
+      	.container {
+      		position: absolute;
+  				top: 50%;
+  				left: 50%;
+  				transform: translate(-50%, -50%);
+      	}
+      	.container .text-btn {
+      		text-align: center;
+      		margin-top: -15px;
+      		color: white;
+      	}
+      	.txt {
+      		margin-bottom: 5px;
+      	}
+      	.juwaw {
+      		text-align: justify;
+      	}
+      	button {
+      		font-family: 'Benne', serif;
+  				background-color: rgba(0,0,0,0);
+  				border: 2px solid #454545;
+  				border-radius: 100px;
+  				color: white;
+  				padding: 10px 16px 10px 16px;
+  				text-align: center;
+  				text-decoration: none;
+  				display: inline-block;
+  				font-size: 18px;
+				}
+				.text-btn i {
+					color: red;
+					padding-left: 10px;
+				}
+				.footer {
+					position: fixed;
+					left: 0;
+					bottom: 0;
+					width: 100%;
+					text-align: right;
+					font-size: 16px;
+				}
+				.footer i {
+					color: red;
+					padding: 0 2px;
+				}
+				.footer p {
+					padding-right: 15px;
+				}
+      </style>
+   </head>
+	   <body>
+	   		<!-- Pake kontener biar gampang -->
+	   		<div class="container">
+		   		<!-- Ini si sadboy kang mewek -->
+		   		<img src="https://media1.tenor.com/images/e8fe393977b2bc8a93d782490170deaf/tenor.gif?itemid=17757959">
+		   			
+					<!-- Ini Button +- Text-->
+					<div class="text-btn">
+						<p id="pow" class="txt">Ada sesuatu di balik tombol di bawah. Aku harap kamu klik itu.</p>
+			    	<button onclick="myFunction();play()" id="po"> Klik Disini <i class="fa fa-heart"></i></button>
+			    	<p id="demo" class="juwaw"></p>
+		    	</div>
+			   </div>
+		     <div class="footer">
+  				<p>Coded with <i class="fa fa-heart"></i> by Risna.</p>
+			 	 </div>
+    	<!-- Buat Nampilin text pas button di click -->
+    	<script>
+      	function myFunction() {
+        	document.getElementById("demo").innerHTML = "Hello Dear,</br>Disini aku cuma mau ngeluarin isi hati aku yang emang bikin hati aku ga enak terus-terusan. Buat kamu, Ica, disni aku minta maaf banget sama kamu atas semua yang aku lakuin ke kamu, maaf banget bikin kamu ga nyaman. Tapi ini aku, aku emang bukan cowok sempurna buat kamu tapi aku pengen bener sama kamu, jalin hubungan yang emang ga cuma sebatas ada aja gitu. Mungkin ekspetasi aku tinggi dengan keadaan aku yang kaya gini. Maaf sekali lagi atas perilaku aku sama kamu, maaf sebesar besarnya.</br>Love you, Ica.";
+        	document.getElementById("pow").remove()
+        	document.getElementById("po").remove()
+      	}
+    	</script>
+    	
+    	<!-- Javascript play lagu -->
+    	<script>
+    		function play() {
+  				var audio = new Audio('audio.mp3');
+  				audio.play();
+				}
+			</script>
+   </body>
+</html>
